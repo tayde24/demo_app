@@ -7,6 +7,8 @@ gem 'rails', '3.2.6'
 
 gem 'sqlite3'
 
+gem "nifty-generators", :group => :development
+
 gem 'json'
 
 # Gems used only for assets and not required
@@ -37,3 +39,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
+
+gem "mocha", :group => :test
